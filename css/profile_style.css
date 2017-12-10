@@ -318,3 +318,53 @@ hr {
   margin-top: 20px;
   display: block;
 }
+.thumbnail img {
+	width: 100%;
+	transition: all 0.3s;
+	height: 400px;
+}
+
+.description {
+	color: #666666;
+	font-size: 14px;
+	line-height: 1.8em;
+	 height: 100%;
+	opacity: 1;
+	transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+	overflow: hidden;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
