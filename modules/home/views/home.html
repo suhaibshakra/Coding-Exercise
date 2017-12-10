@@ -1,0 +1,74 @@
+
+  <title>Article News Card</title>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Lato:400,400i,700'>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/profile_style.css">
+
+
+
+
+
+  <div class="col-sm-12 col-md-12 col-lg-12 " style="margin-bottom: 30px;">
+  <header>
+
+    <!-- <h1>Home</h1>
+    <p>You're logged in!!</p>
+    <h1>Article News Card</h1>
+    <span>
+      Made with
+      <i class='fa fa-heart animated infinite pulse'></i>
+      by
+      <a href="#">Kenny Zuo</a>
+      Designed by
+      <a href="#">JustinKwak</a>
+    </span> -->
+    <!-- <div class="topavatar col-sm-4 col-md-4 col-lg-4"><img src="http://espialdesigns.com/forum/uploads/avatars/avatar_1.jpg?dateline=1444958510"></img></div> -->
+    <div id="user_header">
+     <div id="user" class="animated fadeInDown">
+
+       <div id="user_picture">
+         <div id="picture_box">
+         <img src="https://cdn0.iconfinder.com/data/icons/PRACTIKA/256/user.png" style="width: 80px;">
+       </div>
+         </div>
+       <div id="user_info">
+         <h2 class="user_name">{{ globals.currentUser.name}} </h2>
+         <h5 class="user_name">{{ globals.currentUser.email}} </h5>
+
+       <hr>
+       </div>
+     </div>
+          <div id="scorebox"class="animated flipInX">
+      <a href="#/login"> <div id="points">
+         <i class="fa fa-sign-out" style="font-size: 24px;padding: 2px;" aria-hidden="true"></i>
+       </a>
+       </div>
+     </div>
+
+     <div id="scorebox"class="animated flipInX">
+    <a href="index.html#/setting"> <div id="points">
+       <i class="fa fa-cogs" style="font-size: 24px;" aria-hidden="true"></i>
+     </a>
+     </div>
+   </div>
+         </div>
+  </header>
+  <main>
+
+    <div >
+
+      <div my-news></div>
+    </div>
+
+  </main>
+
+
+
+
+</div>

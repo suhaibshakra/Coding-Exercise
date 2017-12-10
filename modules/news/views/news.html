@@ -1,0 +1,82 @@
+
+  <title> News Card</title>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Lato:400,400i,700'>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/profile_style.css">
+<style>
+.thumbnail img {
+	width: 100%;
+	transition: all 0.3s;
+	height: 400px;
+}
+
+.description {
+	color: #666666;
+	font-size: 14px;
+	line-height: 1.8em;
+	 height: 100%;
+	opacity: 1;
+	transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+	overflow: hidden;
+}
+</style>
+
+
+
+
+  <div class="col-sm-12 col-md-12 col-lg-12 " style="margin-bottom: 30px;">
+    <header>
+      <div id="user_header">
+       <div id="user" class="animated fadeInDown">
+
+         <div id="user_picture">
+           <div id="picture_box">
+           <img src="https://cdn0.iconfinder.com/data/icons/PRACTIKA/256/user.png" style="width: 80px;">
+         </div>
+           </div>
+         <div id="user_info">
+           <h2 class="user_name">{{ globals.currentUser.name}} </h2>
+           <h5 class="user_name">{{ globals.currentUser.email}} </h5>
+
+         <hr>
+         </div>
+       </div>
+            <div id="scorebox"class="animated flipInX">
+        <a href="#/login"> <div id="points">
+           <i class="fa fa-sign-out" style="font-size: 24px;padding: 2px;" aria-hidden="true"></i>
+         </a>
+         </div>
+       </div>
+
+       <div id="scorebox"class="animated flipInX">
+      <a href="index.html#/setting"> <div id="points">
+         <i class="fa fa-cogs" style="font-size: 24px;" aria-hidden="true"></i>
+       </a>
+       </div>
+     </div>
+     <div id="scorebox"class="animated flipInX">
+<a href="javascript:history.go(-1)"> <div id="points">
+  <i class="fa fa-arrow-circle-left" style="font-size: 24px;" aria-hidden="true"></i>
+</a>
+</div>
+</div>
+           </div>
+    </header>
+  <main>
+
+    <div >
+      <div news></div>
+    </div>
+
+  </main>
+
+
+
+
+</div>
